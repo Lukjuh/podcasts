@@ -33,6 +33,74 @@ export const recommendations = [
       },
     ],
   },
+  {
+    id: 2,
+    name: "Educational",
+    items: [
+      {
+        id: 5,
+        title: "De Universiteit van Nederland Podcast",
+        publisher: "Universiteit van Nederland",
+        image:
+          "https://i.scdn.co/image/adc8cfc0edfe31b2c4b710604c297d83a0212de8",
+      },
+      {
+        id: 6,
+        title: "Jong Beleggen, de podcast",
+        publisher: "Pim Verlaan / Milou Brand",
+        image:
+          "https://i.scdn.co/image/098b17f3584c377d7691a17d7a58da025c15a6f9",
+      },
+      {
+        id: 7,
+        title: "De Grote Vragen Podcast",
+        publisher: "de Volkskrant",
+        image:
+          "https://i.scdn.co/image/a2a4aee9fc5a1ac1ad004569be216ebb84e87e93",
+      },
+      {
+        id: 8,
+        title: "Taalnatie",
+        publisher: "Tonny Media",
+        image:
+          "https://i.scdn.co/image/ab67656300005f1fc9a3443aea35f386ff1478b7",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Nieuws en politiek",
+    items: [
+      {
+        id: 9,
+        title: "NU.nl Dit wordt het nieuws",
+        publisher: "NU.nl Dit wordt het nieuws",
+        image:
+          "https://i.scdn.co/image/4efea5ef4bbeef73bc11d7ce86e82ed046ac08f0",
+      },
+      {
+        id: 10,
+        title: "The Daily",
+        publisher: "The New York Times",
+        image:
+          "https://i.scdn.co/image/ef570afd43d43da66c9e5df3957e049f5c3464c3",
+      },
+      {
+        id: 11,
+        title: "NOS Jeugdjournaal",
+        publisher: "NPO Zapp / NOS",
+        image:
+          "https://i.scdn.co/image/ab67656300005f1f040587ff70fb44e6544840fb",
+      },
+      {
+        id: 12,
+        title: "NOS Met het Oog op Morgen",
+        publisher: "NPO Radio 1 / NOS",
+        image:
+          "https://i.scdn.co/image/ab67656300005f1fc9c7cbfd824955222fd68ea4",
+      },
+    ],
+  },
 ];
 
 export const podcasts = [

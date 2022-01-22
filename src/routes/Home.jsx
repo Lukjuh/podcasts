@@ -3,7 +3,7 @@ import PodcastItem from "../components/PodcastItem";
 
 export default function Home() {
   return (
-    <div>
+    <div className="stack-y g-8">
       {recommendations.map((recommendation) => (
         <section key={recommendation.id} className="stack-y">
           <h2>{recommendation.name}</h2>
