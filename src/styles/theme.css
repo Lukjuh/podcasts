@@ -1,0 +1,53 @@
+@import "https://unpkg.com/open-props";
+
+html {
+  color-scheme: light;
+
+  --font-sans: "Poppins", sans-serif;
+
+  --brand: var(--indigo-7);
+
+  --text-1: var(--gray-9);
+  --text-2: var(--gray-6);
+
+  --background: var(--gray-0);
+
+  --surface-1: white;
+  --surface-2: var(--gray-1);
+  --surface-3: var(--gray-2);
+  --surface-4: var(--gray-3);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+
+    --brand: var(--indigo-4);
+
+    --text-1: var(--gray-1);
+    --text-2: var(--gray-3);
+
+    --background: #202124;
+
+    --surface-1: var(--gray-9);
+    --surface-2: var(--gray-8);
+    --surface-3: var(--gray-7);
+    --surface-4: var(--gray-6);
+  }
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --brand: var(--indigo-4);
+
+  --text-1: var(--gray-1);
+  --text-2: var(--gray-3);
+
+  --background: #202124;
+
+  --surface-1: var(--gray-9);
+  --surface-2: var(--gray-8);
+  --surface-3: var(--gray-7);
+  --surface-4: var(--gray-6);
+}

@@ -1,0 +1,30 @@
+.audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: var(--layer-5);
+  background: var(--surface-1);
+  padding: var(--size-4);
+  border-top: var(--border-size-1) solid var(--color-border-1);
+}
+
+.btn-play {
+  cursor: pointer;
+  padding: var(--size-1) var(--size-2);
+  color: white;
+  background-color: var(--brand);
+  font-weight: var(--font-weight-6);
+  border: 0;
+  border-radius: var(--radius-2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-play svg {
+  pointer-events: none;
+}

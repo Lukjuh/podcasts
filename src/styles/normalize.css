@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--text-1);
+  background: var(--background);
+  line-height: var(--font-lineheight-3);
+}
+
+img {
+  max-width: 100%;
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-1);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-1);
+}
+
+main {
+  padding-block: var(--size-6);
+}

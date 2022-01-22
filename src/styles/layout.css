@@ -1,0 +1,17 @@
+.container {
+  width: min(80ch, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-columns {
+  --grid-col-breakpoint: 10rem;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--grid-col-breakpoint), 1fr)
+  );
+}
